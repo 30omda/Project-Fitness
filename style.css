@@ -1,0 +1,236 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#Header{
+    background-image: url("banner5.jpg.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a{
+    float: right;
+    color: #FFF !important;
+}
+.navbar-brand img{
+    width: 150px;
+    margin-left: 30px;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+nav .fa-bars{
+    color: #FFF;
+    font-size: 26px;
+}
+/*--------------welcome text----------------*/
+.welcome{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #FFF;
+    box-shadow: 0 0 20px 7px hsla(288, 26%, 15%, 0.781);
+}
+.welcome h1{
+    color: #333;
+}
+.welcome .home-btn{
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #676767;
+    background-color: turquoise;
+
+}
+.welcome .btn :focus{
+    box-shadow: none;    
+/*---------------------About Us------------------------*/    
+}
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6{
+    padding: 20px 10px;
+}
+#about h3{
+    margin: 20px auto;
+}
+/*-----------------------services-----------------------*/
+#services{
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#services .col-md-4{
+    padding: 20px;
+}
+#services .col-md-4img{
+    width: 50px;
+}
+#services .col-md-4p{
+    padding: 5px;
+    text-align: justify;
+}
+/*--------------------------features-----------------------------*/
+#features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('features.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFF;
+}
+#features .col-md-6{
+    padding: 20px;
+}
+.feature-box{
+    height: 120px;
+}
+.feature-box .feature-left{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.feature-box .feature-left .fa{
+    padding-top: 13px;
+    font-size: 50px;
+}
+.feature-box .feature-rihgt{
+    height: 120px;
+    width: 80px;
+    float: left;
+}
+.feature-box .feature-rihgt h4{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+.feature-box .feature-rihgt p{
+    padding-left: 15px;
+    text-align: left;
+}
+/*-----------------------Testimonilas------------------------*/
+#testimonilas{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonilas .col-md-4{
+    padding: 10px 30px;
+}
+#testimonilas img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 5px solid #FFF;
+    margin-bottom: 30px;
+}
+.review{
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+}
+.review .fa-twitter{
+    color:#013f7e;
+}
+#testimonilas span{
+    color: #013f7e;
+    font-weight: 600;
+    font-size: 18px;
+}
+#testimonilas h1{
+    margin-bottom: 20px;
+    color: #013f7e;
+}
+#testimonilas p{
+    padding-bottom: 20px;
+}
+#testimonilas .middle{
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+/*-------------------Subscribe---------------------------*/
+.subscribe{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+    margin-bottom: -160px;
+}
+.subscribe h3 , .subscribe p{
+    color: #FFF;
+}
+.subscribe .input-group{
+    border-radius: 30px;
+    background: #FFF;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.subscribe .form-control{
+    border: none;
+    background: transparent;
+}
+.subscribe .form-control:focus{
+    box-shadow: none;
+    background: transparent;
+}
+.subscribe .input-group-append{
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    border-radius: 30px;
+}
+.subscribe .input-group-text{
+    background: transparent;
+    border: none;
+    color: #FFF;
+}  
+.subscribe .btn:focus{
+    box-shadow: none;
+}
+/*--------------------footer-------------------------*/
+#footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+.footer-logo{
+    width: 200px;
+    height: 150px;
+    margin-top: -75px;
+    margin-bottom: 15px;
+}
+#footer h1{
+    font-size: 15px;
+    text-align:left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p{
+    font-size: 12px;
+    text-align: left;
+}
+#footer .city{
+    margin-left: 37px;
+}
+#footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#footer hr{
+    margin-top: 10px;
+}
+#footer .fa-heart-o{
+    color: red;
+    font-size:17px;
+}
+#footer .copyright{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+}
